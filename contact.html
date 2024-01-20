@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Pet Store | Contactanos</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+    <!--Page Wrapper-->
+    <div class="page-wrapper">
+
+        <!-- Preloader -->
+        <div class="preloader"></div>
+
+        <!--Header top area-->
+        <header class="main-header header-style-one">
+
+            <!--Main Mane-->
+            <section class="main-menu-area menu-three">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="logo">
+                                <a href="index.html"><img src="images/logo/logo.png" alt=""></a>
+                            </div>
+                            <div class="menu clearfix">
+                                <nav class="main-menu pull-rigth">
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                    </div>
+                                    <div class="navbar-collapse collapse clearfix">
+                                        <ul class="navigation clearfix">
+                                            <li class="dropdown"><a href="index.html">Inicio<br><span class="flaticon-pawprint"></span></a>
+                                            </li>
+                                            <li><a href="about.html">Sobre Nosotros<br><span class="flaticon-pawprint"></span></a></li>
+                                            <li class="dropdown"><a href="shop.html">Tienda<br><span class="flaticon-pawprint"></span></a>
+                                            </li>
+                                            <li class="current"><a href="contact.html">Contactanos<br><span class="flaticon-pawprint"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                                <div class="top-search-box">
+                                    <button><i class="fa fa-search"></i></button>
+                                    <ul class="search-box">
+                                        <li>
+                                            <form action="#">
+                                                <input type="text" placeholder="Search for something...">
+                                                <button type="submit"><i class="fa fa-search"></i></button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="shopping"><a href="shop-cart.html"><i class="fa fa-shopping-basket"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/main_mane-->
+        </header>
+        <!--.slider_area-->
+        <section class="slider_area" style="background-image:url(images/slider/4.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="slider">
+                            <h2>CONTACTO</h2>
+                            <p> <a href="index.html">inicio <span>/</span></a> Conttact</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/slider_area-->
+        <!-- start latest-news-->
+        <section class="contact-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-sm-7 col-xs-12">
+                        <div class="contact-office">
+                            <h4>NUESTRA SUCURSAL</h4>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-map-o" aria-hidden="true"></i>Ingeniero Joel Aldea Sandoval #1482, San Bernardo</a></li>
+                                <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+56935920693/a></li>
+                                <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>rena.salgado@duocuc.cl</a></li>
+                            </ul>
+                        </div>
+                        <div class="default-form clearfix">
+                            <form class="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php" method="post">
+                                <div class="form-group lastname">
+                                    <input type="text" name="form_name" value="" placeholder="Nombre" required="">
+                                </div>
+                                <div class="form-group email">
+                                    <input type="email" name="form_email" value="" placeholder="Tu Email" required="">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="form_phone" value="" placeholder="Número" required="">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="form_subject" value="" placeholder="Sitio (optional)" required="">
+                                </div>
+                                <div class="form-group comments">
+                                    <textarea name="form_message" placeholder="Mensaje" required=""></textarea>
+                                </div>
+                                <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                                <button type="submit" data-loading-text="Please wait..." class="btn btn-one btn-tow"></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-5 col-xs-12">
+                        <div class="map-section">
+                            <div class="google-map" id="google-map" data-map-lat="-33.60763276420005" data-map-lng="-70.69391206666954" data-icon-path="images/resources/1.png" data-map-title="Brooklyn, New York, United Kingdom" data-map-zoom="12" data-markers='{
+                                "marker-1": [-33.60763276420005, -70.69391206666954, "<h4>Personal Trainning Camp</h4><p>1482 ingeniero joel aldea, Santiago, CL </p>"],
+                                "marker-2": [-33.60763276420005, -70.69391206666954, "<h4>Santiago</h4><p>228 Park Ave S, Santiago, UK</p>"]
+
+                            }'>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End latest-news-->
+        <!--Start footer_area-->
+        <footer class="footer_area footer-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="about_us">
+                            <a href="index.html"><img src="images/logo/logo2.png" alt=""></a>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="working">
+                            <h2>Enlaces</h2>
+                            <div class="useful">
+                                <ul>
+                                    <li><a href="index.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Inicio</a></li>
+                                    <li><a href="about.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Sobre Nosotros</a></li>
+                                    <li><a href="shop.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Tienda</a></li>
+                                    <li><a href="contact.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Contactanos/a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="tuoch">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-map-o" aria-hidden="true"></i>Ingeniero Joel Aldea #!482, San Bernardo<br> ,Chile.</a></li>
+                                <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+56935920693</a></li>
+                                <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>rena.salgado@duocuc.cl</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <p>All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+        <!--End footer_area-->
+
+    </div>
+    <!--Page Wrapper End-->
+
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target" data-target=".main-header"><span class="fa fa-long-arrow-up"></span></div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/html5lightbox/html5lightbox.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC31UBmjzQP8E4E77aThaxT5cl0Y64a3gs"></script>
+    <script src="js/gmaps.js"></script>
+    <script src="js/map-helper.js"></script>
+
+
+
+
+
+
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
